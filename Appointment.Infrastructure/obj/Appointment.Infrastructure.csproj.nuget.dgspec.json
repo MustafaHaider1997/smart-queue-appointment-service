@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Infrastructure/Appointment.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Application/Appointment.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Application/Appointment.Application.csproj",
+        "projectName": "Appointment.Application",
+        "projectPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Application/Appointment.Application.csproj",
+        "packagesPath": "/Users/syedalihaider/.nuget/packages/",
+        "outputPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/syedalihaider/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj": {
+                "projectPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj",
+        "projectName": "Appointment.Domain",
+        "projectPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj",
+        "packagesPath": "/Users/syedalihaider/.nuget/packages/",
+        "outputPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/syedalihaider/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Infrastructure/Appointment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Infrastructure/Appointment.Infrastructure.csproj",
+        "projectName": "Appointment.Infrastructure",
+        "projectPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Infrastructure/Appointment.Infrastructure.csproj",
+        "packagesPath": "/Users/syedalihaider/.nuget/packages/",
+        "outputPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/syedalihaider/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Application/Appointment.Application.csproj": {
+                "projectPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Application/Appointment.Application.csproj"
+              },
+              "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj": {
+                "projectPath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Domain/Appointment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
