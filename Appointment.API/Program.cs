@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Logging;
 using System.Text;
 using Appointment.Infrastructure.Data;
 using Appointment.Infrastructure.Repositories;
+using Appointment.Infrastructure.Redis;
 
 IdentityModelEventSource.ShowPII = true;
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,8 @@ builder.Services.AddScoped<AppointmentRepository>();
 // Add JWT Auth
 var jwtConfig = builder.Configuration.GetSection("Jwt");
 var key = Encoding.UTF8.GetBytes(jwtConfig["Key"]);
+
+Console.WriteLine("🔐 JWT KEY: " + jwtConfig["Key"]);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -38,14 +41,30 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(key), // HS256 key here
         };
 
-    options.Events = new JwtBearerEvents
-    {
-        OnAuthenticationFailed = context =>
-        {
-            Console.WriteLine("JWT FAILED: " + context.Exception.Message);
-            return Task.CompletedTask;
-        }
-    };
+        options.Events = new JwtBearerEvents
+            {
+                OnAuthenticationFailed = context =>
+                {
+                    Console.WriteLine($"❌ JWT FAILED: {context.Exception.Message}");
+                    return Task.CompletedTask;
+                },
+                OnTokenValidated = context =>
+                {
+                    var claims = context.Principal?.Claims
+                        .Select(c => $"{c.Type}: {c.Value}")
+                        .ToList();
+
+                    Console.WriteLine("✅ JWT token validated");
+                    if (claims != null)
+                    {
+                        Console.WriteLine("🔐 Claims:");
+                        foreach (var claim in claims)
+                            Console.WriteLine($"   - {claim}");
+                    }
+
+                    return Task.CompletedTask;
+                }
+            };
 });
 
 builder.Services.AddAuthorization();
@@ -89,6 +108,10 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+
+builder.Services.AddSingleton<RedisPublisher>();
+
+builder.WebHost.UseUrls("http://0.0.0.0:5243");
 
 var app = builder.Build();
 

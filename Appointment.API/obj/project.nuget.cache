@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mzX4i9/EWG0VAh1tptKxr7veFnukUNMFi6utczv8BTFd06a13lLNSifPZME/FNRBVZKM8wUlLTZJLO3ZG9wSZA==",
+  "dgSpecHash": "MmHHoc2ID5SvLPHEx2sfCNz4Nmn6kloN77rGvjozlSvW6/2uxCu3L97lPU+jitEUJHIJIgB2taD3v2Rx2a/GTw==",
   "success": true,
   "projectFilePath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/Appointment.API.csproj",
   "expectedPackageFiles": [
@@ -33,12 +33,15 @@
     "/Users/syedalihaider/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
+    "/Users/syedalihaider/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/syedalihaider/.nuget/packages/stackexchange.redis/2.8.37/stackexchange.redis.2.8.37.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.identitymodel.tokens.jwt/7.0.1/system.identitymodel.tokens.jwt.7.0.1.nupkg.sha512",
+    "/Users/syedalihaider/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],

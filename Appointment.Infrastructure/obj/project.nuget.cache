@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rZRxt4jweklgZ7pTi8IKI4ETesbmdUnkWqpLlTV3slaeCVmQFue6aKeBUvgpdDz1DqZusNEh0PkqyGrZ5Lg6Ig==",
+  "dgSpecHash": "aHdcv6Zi7QlgmQ50fRIC/EsgmKUVRi0ZWiBKQFrRmzrOVlWdrVWwVYCeQ9u7R4jdPCFmSQ86aghnGiujG/WNHg==",
   "success": true,
   "projectFilePath": "/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.Infrastructure/Appointment.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,10 @@
     "/Users/syedalihaider/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
+    "/Users/syedalihaider/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/syedalihaider/.nuget/packages/stackexchange.redis/2.8.37/stackexchange.redis.2.8.37.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
+    "/Users/syedalihaider/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/syedalihaider/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],

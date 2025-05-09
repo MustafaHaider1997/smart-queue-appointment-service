@@ -23,6 +23,8 @@
 /Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Npgsql.dll
 /Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Pipelines.Sockets.Unofficial.dll
+/Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/StackExchange.Redis.dll
 /Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/syedalihaider/Downloads/smart-queue-management/smart-queue-appointment-service/Appointment.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
